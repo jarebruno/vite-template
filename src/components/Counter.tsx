@@ -4,8 +4,12 @@ export const Counter = () => {
   const [count, setCount] = useState(0)
   
   return (
-    <button data-testid='counter-button' onClick={() => setCount((count) => count + 1)}>
-      count is {count}
+    <button
+      className='text-gray-500 hover:cursor-pointer'
+      onClick={() => setCount((count) => count + 1)}
+      data-testid='counter-button'
+    >
+      Total clicks {count}
     </button>
   )
 }
