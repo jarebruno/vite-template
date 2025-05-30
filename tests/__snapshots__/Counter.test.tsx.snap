@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should render 1`] = `
+<body>
+  <div>
+    <button
+      data-testid="counter-button"
+    >
+      count is 
+      0
+    </button>
+  </div>
+</body>
+`;
