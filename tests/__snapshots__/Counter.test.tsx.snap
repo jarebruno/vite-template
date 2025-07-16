@@ -4,9 +4,10 @@ exports[`Counter should render 1`] = `
 <body>
   <div>
     <button
+      class="text-gray-500 hover:cursor-pointer"
       data-testid="counter-button"
     >
-      count is 
+      Total clicks 
       0
     </button>
   </div>
